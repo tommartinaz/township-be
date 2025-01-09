@@ -1,0 +1,24 @@
+{
+  "name": "pfs2e",
+  "version": "1.0.0",
+  "description": "PFS Tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tom Martin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "lodash-uuid": "^0.0.3",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "sqlite3": "^5.1.4",
+    "uuid": "^8.3.2"
+  }
+}
